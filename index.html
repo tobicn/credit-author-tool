@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRediT Author Contribution Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1 class="main-title">
+    <span class="title-line-1">Who to CRediT?</span>
+    <span class="title-line-2">CRediT Author Contribution Tool</span>
+  </h1>
+</header>
+
+
+  <p class="step-label">
+  <span class="step-circle">1</span>
+  Enter author names (one per line):
+</p>
+
+
+  <textarea id="authors" rows="6" placeholder="Mary C&#10;Chicago A&#10;Penelope L"></textarea>
+
+  <br>
+<button class="primary-button" onclick="generateTable()">
+  Identify CRediT roles
+</button>
+
+<hr id="step2Separator" class="step-separator" style="display: none;">
+<div id="step2Label" class="step-label" style="display: none;">
+  <span class="step-circle">2</span>
+  Identify CRediT roles
+</div>
+
+<div id="step2Label" class="step-label" style="display: none;">
+  <span class="step-circle">2</span>
+  Identify CRediT roles
+</div>
+
+
+  <div id="tableHelp" class="table-help" style="display: none;">
+  <span><i>What does any of this mean</i></span>
+  <button onclick="openCreditInfo()" aria-label="What does any of this mean?">
+    ?
+  </button>
+</div>
+
+
+<div id="tableContainer"></div>
+
+
+  <div id="exportContainer" style="display: none;">
+  <button class="primary-button" onclick="exportText()">
+  Create CRediT Statement
+</button>
+</div>
+
+
+  <script src="script.js"></script>
+  
+  <div class="credit-info">
+  <h2>Credit where CRediT is due</h2>
+
+  <p>
+    The CRediT system was first developed by
+    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1087/20150211" target="_blank" rel="noopener noreferrer">
+      Brand et al. (2015). 
+    </a>The full list of roles and explanations can be found on the official
+    <a href="https://credit.niso.org" target="_blank" rel="noopener noreferrer">
+      CRediT website</a>.
+  </p>
+
+  <p>
+    If you like this, let me <a href="mailto:tobias.constien@icloud.com?subject=CRediT to you!" target="_blank" rel="noopener noreferrer">
+      know 
+    </a>.
+  </p>
+
+</div>
+
+</body>
+</html>
