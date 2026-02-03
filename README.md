@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="/CRediT-Tool-Logo.png" width="40%">
+</p>
+
+
 > <i>Do you also think writing CRediT statements should be easier?</i></p>
 
 This little tool should do the job of writing and formatting for you. Yes, it is a bit stupid, but why not save yourself some time?
